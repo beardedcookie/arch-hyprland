@@ -11,6 +11,7 @@ hl.on("hyprland.start", function()
   hl.exec_cmd("waybar")
   hl.exec_cmd("awww-daemon")
   hl.exec_cmd("swaync")
+  hl.exec_cmd("~/.config/hypr/wallcycle.sh")
 end)
 
 --if you want to run any wallpaper with awww run awww img Pictures/Wallpapers/yourwallpaper.jpg or png or whatever
